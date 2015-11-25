@@ -1,27 +1,32 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <jsp:root xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
-	<jsp:directive.page contentType="text/html; charset=UTF-8" 
-		pageEncoding="UTF-8" session="false"/>
+	<jsp:directive.page contentType="text/html; charset=UTF-8"
+		pageEncoding="UTF-8" session="false" />
 	<jsp:output doctype-root-element="html"
 		doctype-public="-//W3C//DTD XHTML 1.0 Transitional//EN"
 		doctype-system="http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"
 		omit-xml-declaration="true" />
-<html xmlns="http://www.w3.org/1999/xhtml">
+	<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <title>Home Page</title>
 </head>
 <body>
-<div id="home">
-<p id="welcome">Welcome!</p>
-<p id="description">Food R us provides a wide variety of food items of great prices. 
-Our products are all of the highest quality.
-Avoid wasting your time at your local grocery store and simply order food items online and have them delivery to your door</p>
-</div>
+	<div id="home">
+		<p id="welcome">Welcome!</p>
+		<div id="description">
+			<p>Food R us provides a wide variety of food items of great
+				prices. Our products are all of the highest quality. Avoid wasting
+				your time at your local grocery store and simply order food items
+				online and have them delivery to your door</p>
+		</div>
+		<div id="home_promo">
+			<label id="home_promotion">Enjoy our latest promotion:
+				Shipping on us if you spend more than $100!</label> <br /> <br /> <input
+				type="submit" name="shopNow" value="ShopNow" />
+		</div>
+	</div>
 
-<div>
-<label id="home_promotion">Enjoy our latest promotion: Shipping on us if you spend more than $100!</label>
-<input type="submit" name="shopNow" value="ShopNow"/>
-</div>
+
 </body>
-</html>
+	</html>
 </jsp:root>

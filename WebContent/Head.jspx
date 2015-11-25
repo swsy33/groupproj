@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<jsp:root xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+	<jsp:directive.page contentType="text/html; charset=UTF-8" 
+		pageEncoding="UTF-8" session="false"/>
+	<jsp:output doctype-root-element="html"
+		doctype-public="-//W3C//DTD XHTML 1.0 Transitional//EN"
+		doctype-system="http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"
+		omit-xml-declaration="true" />
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Header</title>
+</head>
+<body>
+<div id="headerSection">
+	<div id="mainLogo">
+		<img src="res/img/logo4.png"/>
+	</div>
+	<div id="search">
+		<input type="text" id="search_input" value=""/>
+		<input type="image" id="search_button" name="dosearch" src="res/img/sbutton.png" alt="search"/>
+	</div>
+	<section id="client-manager">
+	<div id="admin">
+		<ul>
+			<li><a href="#">Login</a></li>
+			<li><a href="#">My Account</a></li>
+		</ul>		
+	</div>
+	<br/>
+	<div id="cart">
+	<img src="res/img/cart.png" alt="Shopping Cart"/>
+	<span>0 items $0.00</span>  
+	</div>
+	</section>
+</div>
+</body>
+</html>
+</jsp:root>

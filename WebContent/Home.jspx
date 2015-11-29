@@ -20,9 +20,11 @@
 				online and have them delivery to your door</p>
 		</div>
 		<div id="home_promo">
+		<fieldset>
 			<label id="home_promotion">Enjoy our latest promotion:
-				Shipping on us if you spend more than $100!</label> <br /> <br /> <input
-				type="submit" name="shopNow" value="ShopNow" />
+				Shipping on us if you spend more than $100!</label> <br /> <br />
+				 <input type="submit" name="shopNow" value="Shop Now" />
+			</fieldset>
 		</div>
 	</div>
 

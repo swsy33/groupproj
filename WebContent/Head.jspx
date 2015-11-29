@@ -20,12 +20,14 @@
 		<input type="image" id="search_button" name="dosearch" src="res/img/sbutton.png" alt="search"/>
 	</div>
 	<section id="client-manager">
+	<!-- <form action="action/login" method="post"> -->
 	<div id="admin">
 		<ul>
-			<li><a href="#">Login</a></li>
-			<li><a href="#">My Account</a></li>
+			<li><a href="action/login">Login</a></li>
+			<li><a href="action/account">My Account</a></li>
 		</ul>		
 	</div>
+	<!-- </form> -->
 	<br/>
 	<div id="cart">
 	<img src="res/img/cart.png" alt="Shopping Cart"/>

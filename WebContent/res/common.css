@@ -232,12 +232,16 @@ sup {
 	padding-left: 30px;
 	position: relative;
 	display: inline-block;
+	top: -60px;
 }
 
 #home_promo
 {
-	width: 150px;
+	width: 250px;
 	display:inline-block;
+	padding-left: 130px;
+	boarder: 1px;
+	color: white;
 }
 
 #shopnow
